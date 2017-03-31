@@ -1,0 +1,31 @@
+body p{
+	/*color: blue;*/
+}
+
+h1{
+	font-style: italic;
+	font-weight: bold;
+	background: purple;
+	color: white;
+	padding: 3px;
+	border: 1px solid blue;
+	text-align: center;
+}
+
+p code{
+	background-color: #af66ac;
+}
+
+section{
+	padding-left: 3px; 
+	margin: 5;
+	margin-bottom: 10px;
+	border: 1px solid purple;
+	box-shadow: 5px 5px 5px purple;
+}
+
+.resultat{
+	background: #EEE;
+	margin-left: 5px;
+	margin-right: 5px;
+}
