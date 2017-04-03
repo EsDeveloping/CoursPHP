@@ -19,26 +19,25 @@
 				<h3>Tabeau simple</h3>
 				<p>Code</p>
 				<img src="code/tableau1.png" alt="image tableau + printr.png">
-				<p>Resultat</p>
-				<p class="resultat">
+				<p>Resultat :</p>
 
-				<?php 
+				<div class="resultat"><?php 
 					$prenoms = array('Mathieu','Marie','Robert');
 					print_r($prenoms);
-				?>
+				?></div>
 			</article>
 
 			<article>
 				<h3>Tableau assiociatif</h3>
 				<p>Code</p>
 				<img src="code/tableau2.png" alt="tableau2.png">
-				<p>Resultat</p>
-				<?php 
+				<p>Resultat :</p>
+				<div class="resultat"><?php 
 					$personne = array('nom' => 'Salmon', 'prenom' => 'Emerick', 'age' => 30);
 					echo $personne['nom'] . '<br />';
 					echo $personne['prenom'] . '<br />';
 					echo $personne['age'] . '<br />';
-				 ?>
+				 ?></div>
 
 			</article>
 
@@ -47,14 +46,14 @@
 				<p>Ce type de boucle permet de visualiser des boucle très façilement</p>
 				<p>Code</p>
 				<img src="code/tableau3.png" alt="tableau3.png">
-				<p>Resultat</p>
-				<?php 
+				<p>Resultat :</p>
+				<div class="resultat"><?php 
 					$personne = array('nom' => 'Salmon', 'prenom' => 'Emerick', 'age' => 30);
 
 					foreach ($personne as $pers) {
 						echo $pers;
 					}
-				 ?>
+				 ?></div>
 
 			</article>
 		</section>
