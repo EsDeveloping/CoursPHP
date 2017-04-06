@@ -32,7 +32,7 @@
 
 			<article>
 				<h3>Créer ça propre fonction</h3>
-				<p>Créon une fonction qui dirai 'Bienvenue sur L2Programming à quelque personne</p>
+				<p>Créon une fonction qui dirai 'Bienvenue sur L2Programming' à quelque personne</p>
 				<p>Voici le code de déclaration de la fonction</p>
 				<?php 
 					function BienvenuSurL2P($nom){

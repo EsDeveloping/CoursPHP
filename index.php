@@ -47,13 +47,55 @@
 				<p>Shift + click droit pour mettre des multi curseur</p>
 				<p>shift + control + g pour entourer la selection d'un element</p>
 
-				<li class="day-01"><span>Lundi</span></li>
-				<li class="day-02"><span>Lundi</span></li>
-				<li class="day-03"><span>Lundi</span></li>
-				<li class="day-04"><span>Lundi</span></li>
-				<li class="day-05"><span>Lundi</span></li>
-				<li class="day-06"><span>Lundi</span></li>
-				<li class="day-07"><span>Lundi</span></li>
+				<ul class="maliste">
+					<li class="day-01"><span>Lundi</span></li>
+					<li class="day-02"><span>Lundi</span></li>
+					<li class="day-03"><span>Lundi</span></li>
+					<li class="day-04"><span>Lundi</span></li>
+					<li class="day-05"><span>Lundi</span></li>
+					<li class="day-06"><span>Lundi</span></li>
+					<li class="day-07"><span>Lundi</span></li>
+				</ul>
+			</article>
+			article#acticlespecial>h1+p*2+ul>li*10+img*2
+			<article id="acticlespecial">
+				<h1></h1>
+				<p></p>
+				<p></p>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<img src="" alt="">
+					<img src="" alt="">
+				</ul>
+			</article>
+			<article id="acticlespecial">
+				<h1></h1>
+				<p></p>
+				<p></p>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<img src="" alt="">
+				<img src="" alt="">
+				Hello world !!
 			</article>
 		</section>
 	</section>
