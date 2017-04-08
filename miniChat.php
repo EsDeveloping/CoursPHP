@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../../style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
 	<title>Mini Chat</title>
 </head>
 <body>
-	<?php include '../../entete.php' ?>
+	<?php include 'entete.php' ?>
 	<section id="corp">
-		<?php include '../../nav.php' ?>
+		<?php include 'nav.php' ?>
 		<section id="conteneurArcticle">
 			<h1>Mini Chat</h1>
 				<form action="miniChatPost.php" method="POST">

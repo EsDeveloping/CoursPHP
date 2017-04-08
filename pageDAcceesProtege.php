@@ -10,8 +10,14 @@
 	<img src="" alt="Image du cadenas verouiller">
 	<form  action="pageProtege.php" method="POST">
 		<label for="motDePasse">Entrer le mot de passe</label>
-		<input type="text" name="motDePasse">
+		<input type="password" name="motDePasse">
 		<input type="submit" name="">
 	</form>
+	<?php 
+		if (isset($_GET['val'])) {
+			$val = (int) $_GET['val'];
+			echo '<p>' . $val .'</p>';
+		}
+	 ?>
 </body>
 </html>
