@@ -7,4 +7,5 @@
 	<li><a href="pageDAcceesProtege.php">Tp page protege</a></li>
 	<li><a href="miniChat.php">Minichat</a></li>
 	<li><a href="blog.php">Petit blog</a></li>
+	<li><a href="blog2.php">Blog version 2</a></li>
 </ul>

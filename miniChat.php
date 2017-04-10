@@ -21,7 +21,7 @@
 
 				<?php 
 					// Gestion de la base de donnée
-					$bdd = new PDO('mysql:host=localhost;dbname=test','root','',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+					$bdd = new PDO('mysql:host=localhost;dbname=test','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 				
 					$derligne = $bdd->query('SELECT ID FROM miniChat ORDER BY ID DESC LIMIT 1');
 					
