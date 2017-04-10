@@ -13,7 +13,7 @@
 			<h1>Mon Blog</h1>
 			
 			<?php 
-				$bdd = new PDO('mysql:host=localhost;dbname=test', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+				$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
 				$requete = $bdd->query('SELECT * FROM blogBillet');
 
@@ -22,6 +22,8 @@
 					echo '<p>' . $donnee['contenu'] . '</p>';
 					echo '<p><a href="blogCommentaire.php?id=' . $donnee['id'] .'"' . '>Blabla</a></p></article>'; 
 				}
+
+				$requete->closeCursor();
 
 			 ?>
 		
