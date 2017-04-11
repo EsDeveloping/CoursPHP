@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 08, 2017 at 03:43 
+-- Generation Time: Apr 10, 2017 at 10:28 
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -171,7 +171,10 @@ INSERT INTO `miniChat` (`ID`, `nom`, `message`) VALUES
 (1, 'Kiki', 'Salut'),
 (2, 'Billy', 'Hi'),
 (3, 'dede', 'Hello'),
-(4, 'dede', 'Pouet');
+(4, 'dede', 'Pouet'),
+(5, 'zeaeaze', 'koukou'),
+(6, 'zae', 'comment Ã§a va'),
+(7, '', '');
 
 --
 -- Indexes for dumped tables
@@ -224,7 +227,7 @@ ALTER TABLE `jeux_video`
 -- AUTO_INCREMENT for table `miniChat`
 --
 ALTER TABLE `miniChat`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
