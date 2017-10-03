@@ -13,7 +13,7 @@
 			<h1>Mon Blog : commentaire</h1>
 			
 			<?php 
-				$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+				$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
 				$prepare = $bdd->prepare('SELECT user, contenu, dateDeCreation FROM blogCommentaire WHERE idBillet=? ORDER BY dateDeCreation');
 
